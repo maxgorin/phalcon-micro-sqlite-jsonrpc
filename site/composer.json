@@ -1,0 +1,19 @@
+{
+  "name": "phalcon-micro-sqlite-jsonrpc-site/phalcon-micro-sqlite-jsonrpc-site",
+  "description": "phalcon-micro-sqlite-jsonrpc-site",
+  "minimum-stability": "dev",
+  "type": "project",
+  "require": {
+    "datto/json-rpc-http": "5.0.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phalcon/ide-stubs": "v4.0.0",
+    "swoole/ide-helper": "4.4.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Site\\": "src/"
+    }
+  }
+}
